@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'StytchDFPWrapper'
-    s.version      = '1.0.2'
+    s.version      = '1.0.3'
     s.license      = { :type => 'Apache-2.0', :file => 'LICENSE' }
     s.authors      = 'Stytch,'
     s.homepage     = 'https://github.com/stytchauth/stytch-ios-dfp'
