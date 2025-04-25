@@ -1,8 +1,27 @@
+<div align=center>
+
+![Stytch iOS SDK](Resources/stytch-dark.png#gh-dark-mode-only)
+![Stytch iOS SDK](Resources/stytch-light.png#gh-light-mode-only)
+
+![iOS](https://img.shields.io/badge/iOS-15.0-blue)
+![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-compatible-4BC51D)
+
+</div>
+
 ## Introduction
 [Stytch's](https://stytch.com) iOS device fingerprinting ([DFP](https://stytch.com/docs/fraud/guides)) SDK aggregates various attributes of a user’s device into a single identifier.
 
-## Setup
-TODO
+## Installation Using Swift Package Manager
+
+Open the following menu item in Xcode: **File -> Add Package Dependencies...**
+
+In the **Search or Enter Package URL** search box enter this URL: 
+
+```text
+https://github.com/stytchauth/stytch-ios-dfp
+```
+
+Then, select the dependency rule and press **Add Package**.
 
 ## Usage
 ``` swift
