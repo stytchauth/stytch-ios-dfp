@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-@interface StytchDFP : NSObject
+__attribute__((visibility("default"))) @interface StytchDFP : NSObject
 
 typedef void (^TelemetryIDCompleteCallbackType)(NSString * _Nonnull telemetry_id); //Declare the block type
 
