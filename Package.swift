@@ -5,14 +5,11 @@ import PackageDescription
 let package = Package(
     name: "StytchDFP",
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "StytchDFP",
             targets: ["stytch-ios-dfp"]),
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "stytch-ios-dfp",
             dependencies: [
@@ -22,7 +19,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "StytchDFP",
-            path: "./Sources/stytch-ios-dfp/StytchDFP.xcframework"
+            url: "https://github.com/stytchauth/stytch-ios-dfp/releases/download/1.0.8/StytchDFP-1.0.8.xcframework.zip",
+            checksum: "d503d75f23bdc12b85df29de8017e8a7096d6ad473fc028073c9a43288faee4c"
         )
     ]
 )
